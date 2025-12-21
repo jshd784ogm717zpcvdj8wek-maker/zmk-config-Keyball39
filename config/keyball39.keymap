@@ -116,7 +116,7 @@
             label = "SCROLL";
             bindings = <
 &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)                  &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-&trans            &trans            &kp LG(D)          &kp TAB           &trans                      &trans            &trans      &trans      &trans      &trans
+&trans            &trans            &kp LG(D)          &kp LG(TAB)       &trans                      &trans            &trans      &trans      &trans      &trans
 &kp LG(LEFT)      &kp LG(DOWN)      &kp LG(UP_ARROW)   &kp LG(RIGHT)     &trans                      &trans            &trans      &trans      &trans      &trans
 &kp LG(LS(LEFT))  &trans            &kp LG(LS(RIGHT))  &trans            &trans      &trans  &trans  &trans                                                &trans
             >;
