@@ -227,7 +227,7 @@ layers:
   - Gui+$$mdi:arrow-right-bold$$
   - Ctl+W
   - Ctl+V
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+Alt+E
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
