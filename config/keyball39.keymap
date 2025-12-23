@@ -117,7 +117,7 @@
             bindings = <
 &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)                  &kp LG(NUMBER_6)  &kp LG(N7)     &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
 &trans            &trans            &kp LG(D)          &kp LG(TAB)       &kp LC(T)                   &kp LC(C)         &kp LS(LG(S))  &kp HOME    &trans      &trans
-&kp LG(LEFT)      &kp LG(DOWN)      &kp LG(UP_ARROW)   &kp LG(RIGHT)     &kp LC(W)                   &kp LC(V)         &trans         &kp END     &trans      &trans
+&kp LG(LEFT)      &kp LG(DOWN)      &kp LG(UP_ARROW)   &kp LG(RIGHT)     &kp LC(W)                   &kp LC(V)         &kp LC(LA(E))  &kp END     &trans      &trans
 &kp LG(LS(LEFT))  &trans            &kp LG(LS(RIGHT))  &trans            &trans      &trans  &trans  &trans                                                   &trans
             >;
         };
