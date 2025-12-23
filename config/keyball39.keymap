@@ -105,20 +105,20 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1          &kp N2          &kp N3        &kp N4               &kp N5                        &kp N6             &kp N7      &kp N8  &kp N9     &kp N0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT            &kp LS(CAPS)                  &kp C_VOLUME_UP    &mkp LCLK   &none   &mkp RCLK  &mkp MCLK
-&kp LA(LEFT)    &none           &none         &kp LA(RIGHT_ARROW)  &kp CAPSLOCK                  &kp C_VOLUME_DOWN  &kp K_MUTE  &none   &none      &none
-&none           &trans          &trans        &trans               &trans        &trans  &trans  &kp DELETE                                        &none
+&kp N1          &kp N2          &kp N3        &kp N4               &kp N5                        &kp N6             &kp N7      &kp N8             &kp N9     &kp N0
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT            &kp LS(CAPS)                  &kp C_VOLUME_UP    &mkp LCLK   &kp LC(PAGE_UP)    &mkp RCLK  &mkp MCLK
+&kp LA(LEFT)    &none           &none         &kp LA(RIGHT_ARROW)  &kp CAPSLOCK                  &kp C_VOLUME_DOWN  &kp K_MUTE  &kp LC(PAGE_DOWN)  &none      &none
+&none           &trans          &trans        &trans               &trans        &trans  &trans  &kp DELETE                                                   &none
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)                  &kp LG(NUMBER_6)  &kp LG(N7)  &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
-&trans            &trans            &kp LG(D)          &kp LG(TAB)       &trans                      &trans            &trans      &trans      &trans      &trans
-&kp LG(LEFT)      &kp LG(DOWN)      &kp LG(UP_ARROW)   &kp LG(RIGHT)     &trans                      &trans            &trans      &trans      &trans      &trans
-&kp LG(LS(LEFT))  &trans            &kp LG(LS(RIGHT))  &trans            &trans      &trans  &trans  &trans                                                &trans
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)   &kp LG(NUMBER_4)  &kp LG(N5)                  &kp LG(NUMBER_6)  &kp LG(N7)     &kp LG(N8)  &kp LG(N9)  &kp LG(N0)
+&trans            &trans            &kp LG(D)          &kp LG(TAB)       &kp LC(T)                   &kp LC(C)         &kp LS(LG(S))  &kp HOME    &trans      &trans
+&kp LG(LEFT)      &kp LG(DOWN)      &kp LG(UP_ARROW)   &kp LG(RIGHT)     &kp LC(W)                   &kp LC(V)         &trans         &kp END     &trans      &trans
+&kp LG(LS(LEFT))  &trans            &kp LG(LS(RIGHT))  &trans            &trans      &trans  &trans  &trans                                                   &trans
             >;
         };
 
